@@ -1,0 +1,26 @@
+{
+    "name": "ddsm2016/we7_mp",
+    "type": "library",
+    "description": "在Laravel5.1中整合微挚数据库，并实现对公众号接口的二次封装。",
+    "keywords": ["东大", "微挚", "公众号Api"],
+    "homepage": "https://github.com/ddsm2016/we7_mp/wiki",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ddsm2016/we7_mp/issues"
+    },
+    "authors": [
+        {
+            "name": "Peng Weifeng",
+            "email": "pwf0112@163.com",
+            "homepage": "http://pengweifeng.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "We7Mp\\": "src/"
+        }
+    }
+}
